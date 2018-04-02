@@ -1,0 +1,53 @@
+{
+  "name": "sports_agent",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.11.1",
+    "jest-expo": "25.0.0",
+    "react-test-renderer": "16.2.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "apollo-client-preset": "^1.0.5",
+    "apollo-link-context": "^1.0.3",
+    "apollo-link-ws": "^1.0.4",
+    "apollo-utilities": "^1.0.4",
+    "babel-plugin-transform-remove-console": "^6.8.5",
+    "classnames": "^2.2.5",
+    "expo": "^25.0.0",
+    "formik": "^0.11.11",
+    "graphql": "^0.13.1",
+    "graphql-tag": "^2.6.1",
+    "immutability-helper": "^2.6.2",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "moment-timezone": "^0.5.14",
+    "prop-types": "^15.6.0",
+    "react": "16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-native": "0.52.0",
+    "react-native-collapsible": "^0.10.0",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "^1.1.2",
+    "react-navigation-redux-helpers": "^1.0.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.4.0",
+    "redux-saga": "^0.16.0",
+    "subscriptions-transport-ws": "^0.9.5",
+    "yup": "^0.24.1"
+  }
+}
